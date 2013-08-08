@@ -19,7 +19,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-
+-(void)secondViewControllerDidCancel{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    SecondViewController *svc=(SecondViewController *)[segue destinationViewController];
+    svc.delegate=self;
+    
+    
+   
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

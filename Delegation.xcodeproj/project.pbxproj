@@ -18,6 +18,7 @@
 		530BDFBA17B3534E0022C571 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 530BDFB917B3534E0022C571 /* Default-568h@2x.png */; };
 		530BDFBD17B3534E0022C571 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 530BDFBB17B3534E0022C571 /* MainStoryboard.storyboard */; };
 		530BDFC017B3534E0022C571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530BDFBF17B3534E0022C571 /* ViewController.m */; };
+		530BDFC817B358520022C571 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530BDFC717B358520022C571 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		530BDFBC17B3534E0022C571 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		530BDFBE17B3534E0022C571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		530BDFBF17B3534E0022C571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		530BDFC617B358520022C571 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		530BDFC717B358520022C571 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				530BDFB217B3534E0022C571 /* AppDelegate.h */,
 				530BDFB317B3534E0022C571 /* AppDelegate.m */,
 				530BDFBB17B3534E0022C571 /* MainStoryboard.storyboard */,
+				530BDFC617B358520022C571 /* SecondViewController.h */,
+				530BDFC717B358520022C571 /* SecondViewController.m */,
 				530BDFBE17B3534E0022C571 /* ViewController.h */,
 				530BDFBF17B3534E0022C571 /* ViewController.m */,
 				530BDFAA17B3534E0022C571 /* Supporting Files */,
@@ -176,6 +181,7 @@
 				530BDFB017B3534E0022C571 /* main.m in Sources */,
 				530BDFB417B3534E0022C571 /* AppDelegate.m in Sources */,
 				530BDFC017B3534E0022C571 /* ViewController.m in Sources */,
+				530BDFC817B358520022C571 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
